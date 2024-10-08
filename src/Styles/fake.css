@@ -1,0 +1,271 @@
+*{
+    margin : 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navOut{
+    overflow: hidden;
+    height: 60px;
+    width: 100%;
+}
+
+
+.navbar{
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.navbar p{
+    padding: 15px 0px;
+    font-size: 25px;
+    margin-left: 400px;
+    color: rgba(20,9,0,10);
+    /* font-weight: 200px; */
+}
+
+.navD{
+    /* display: inline; */
+    /* border: 2px solid black; */
+    /* justify-content: space-between; */
+    padding: 12px 10px 0px 0px;
+    margin-left: 480px;
+}
+
+button{
+    padding: 10px;
+}
+
+.navD button{
+    font-size: 15px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.navbar button:nth-child(1):hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+}
+.navbar button:hover{
+    background-color: crimson;
+    color: white;
+    transform: scale(1.1);
+}
+
+.inDiv {
+    display: block;
+    text-align: left;
+    padding-bottom: 100px;
+    height: 70px;
+    /* margin-top: 2px; */
+    background-image: Linear-gradient(to left, wheat, rgba(20,9,0,10));
+}
+.inDiv input{
+    border:2px solid thistle;
+    font-size: 25px;
+    font-weight: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    margin-left: 30px; 
+    margin-bottom: 50px;
+}
+.images{
+    max-width: 100%;
+}
+.inImages{
+    display: flex;
+    flex-wrap: flex-start;
+    /* border: 1px solid red; */
+   /* justify-content: center; */
+   padding: 20px 0px;
+   overflow-y: hidden;
+}
+
+.inImages img{
+    flex: 30%;
+    padding: 20px;
+    margin-inline: 10px;
+    margin-left: 12px;
+}
+.innerDiv{
+    padding-top: 20px;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 5px 10px 10px 5px black;
+}
+.innerDiv img{
+    height: 280px;
+    width: 40vh;
+}
+.innerDiv p{
+    color: black;
+}
+.innerDiv button{
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgb(245, 206, 135);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.inImages p{
+    font-size: 14px;
+    font-weight: medium; 
+    padding-left: 20px;
+}
+
+
+
+#ld{
+    height: 60px;
+    width: 100%;
+    background-color: #f1f1f1;
+    bottom: 0;
+ }
+ #ld p{
+    color: #999da7;
+    position: relative;
+    top: 20px;
+    left: 120px;
+    width: 50%;
+ }
+
+.logMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  #allatTitle {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .formContainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  #loginTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #uName, #psw {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  #loginSub {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #loginSub:hover {
+    background-color: #218838;
+  }
+  
+  #lastCh {
+    text-align: center;
+  }
+  
+  #registerLink {
+    color: red;
+    text-decoration: none;
+  }
+  
+  #registerLink:hover {
+    text-decoration: underline;
+  }
+
+  
+  #allatRegister {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .RegisterMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; 
+    background-color: #f9f9f9;
+    flex-direction: column;
+  }
+  
+  #rform {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  #registerTitle {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #registerTable {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #registerTable td {
+    padding: 10px;
+  }
+  
+  #registerTable input[type="text"],
+  #registerTable input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  #registerSubmit {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #registerSubmit:hover {
+    background-color: #0056b3;
+  }
+  
